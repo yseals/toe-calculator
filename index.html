@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/calc.js" defer></script>
+    <title>トーイン計算機</title>
+</head>
+<body>
+    <h1>トーイン計算機</h1>
+    <div>
+        <p>タイヤサイズ、アライメントゲージの全長に対して、x度（分）の場合の、トータルトーイン(mm)を算出</p>
+    </div>
+    <div>
+        <label>タイヤサイズ：</label>
+        <input class="input-tire-3" type="number" id="inp-tire-width" max="999" min="1" placeholder="215" required>
+        /
+        <input class="input-tire-2" type="number" id="inp-tire-ratio" max="99" min="1" placeholder="45" required>
+        R
+        <input class="input-tire-2" type="number" id="inp-tire-inch" max="99" min="1" placeholder="17" required>
+
+        <button class="btn-calc" type="button" id="btn-tire-calc">計算</button>
+        <span class="error-msg" id="msg-tire-input-error">正しい値を入力してください</span>
+    </div>
+
+    <div>
+        <label>全長(mm)：</label>
+        <input class="input-diameter" type="number" id="inp-diameter" max="999" min="1" placeholder="735" required>
+        <button class="btn-calc" type="button" id="btn-diameter-calc">計算</button>
+        <span class="error-msg" id="msg-diameter-input-error">1-999の値を入力してください</span>
+    </div>
+
+    <div id="table-container"></div>
+</body>
