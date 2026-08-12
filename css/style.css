@@ -1,0 +1,51 @@
+[class*="input-tire-"]::-webkit-outer-spin-button,
+[class*="input-tire-"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+[class*="input-tire-"] {
+  -moz-appearance: textfield;
+}
+
+[class*="input-tire-"] {
+  border: 2px solid #ccc;
+}
+
+.error {
+  border-color :#ff4d4d
+}
+
+/* エラーメッセージの制御：無効なときだけ表示する */
+.error-msg {
+  display: none;
+  color: #ff4d4d;
+  font-size: 0.8rem;
+}
+
+.error-msg.show {
+  display: block;
+}
+
+ .input-tire-3
+ {
+    width: 2rem;
+ }
+
+  .input-tire-2
+ {
+    width: 1.5rem;
+ }
+
+  th, td 
+  {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: left;
+  }
+  th 
+  
+    background-color: #f4f4f4;
+  }
+
+
